@@ -4,9 +4,16 @@
     box-sizing: border-box;
     max-width: 100%;
 }
-    
+
 #user {
-    
     display: none;
     margin-right: 5%;
+}
+
+p{
+    text-align: justify;
+}
+
+h4{
+    text-align: center;
 }
