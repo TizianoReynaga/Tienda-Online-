@@ -8,14 +8,14 @@ const mostrarProductos = (datos) => {
     const contenedor = document.querySelector('#contenedor')
     datos.forEach(datos => {
         productos += 
-        `<div class="card border border-1 border-dark d-flex flex-column align-items-center"
+        `<div class="card border border-1 border-white d-flex flex-column align-items-center bg-black text-white"
             style="width: 100%; max-width: 300px; margin:30px">
             <img src="${datos.imagen}" class="card-img-top" alt="...">
             <div class="card-body ">
                 <h4>${datos.titulo}</h4>
                 <p class="card-text ">${datos.descripcion}</p>
             </div>
-                  <button class="btn btn-outline-success mt-auto mb-3" type="submit">Comprar</button>
+                  <button class="btn btn-outline-warning mt-auto mb-3 " type="submit">Comprar</button>
             </div>`
     })
     contenedor.innerHTML = productos

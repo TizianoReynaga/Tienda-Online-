@@ -2,6 +2,9 @@ import {navbar} from './navbar.js'
 
 document.querySelector('#conte').innerHTML = navbar
 
+import {footer} from './footer.js' 
+document.querySelector('#contF').innerHTML = footer
+
 let boton = document.querySelector('#ingresar')
 boton.addEventListener('click', ()=>{
     let btn = document.querySelector('#user')
